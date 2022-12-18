@@ -1,0 +1,63 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+
+
+
+
+<main>
+    <section id="about_us1" class="mb-5">
+        <div class="whoAreWe text-center">
+            НАШИ <br>
+             НАУШНИКИ
+        </div>
+
+        <div class="shopping container" style="padding: 20px 70px">
+            <div class="row">
+                <div class="col-3">
+                    <div>
+                        <a href="{% url 'cofe:book' %}"><img style="width: 70%;" src="{% static 'image/bits.webp' %}" alt=""></a>
+                    </div>
+                    <div>
+                        <p style="font-size: 12px;" class="mb-1">Ваш товар</p>
+                        <p style="font-size: 12px;" class="mb-1">$1,999.00</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div>
+                        <img style="width: 70%;" src="{% static 'image/bits.webp' %}" alt="">
+                    </div>
+                    <div>
+                        <p style="font-size: 12px;" class="mb-1">Ваш товар</p>
+                        <p style="font-size: 12px;" class="mb-1">$2,999.00</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div>
+                        <img style="width: 70%;" src="{% static 'image/bits.webp' %}" alt="">
+                    </div>
+                    <div>
+                        <p style="font-size: 12px;" class="mb-1">Ваш товар</p>
+                        <p style="font-size: 12px;" class="mb-1">$4,999.00</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div>
+                        <img style="width: 70%;" src="{% static 'image/bits.webp' %}" alt="">
+                    </div>
+                    <div>
+                        <p style="font-size: 12px;" class="mb-1">Ваш товар</p>
+                        <p style="font-size: 12px;" class="mb-1">$1,999.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+
+
+
+{% endblock %}
